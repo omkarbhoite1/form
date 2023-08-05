@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ppm.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    
+    <title>
+        Products And Machines
+    </title>
+</head>
+<body>
+    <section class="pro-header">
+        <nav>
+            <a href="index.html"><img src="images/jk.webp"></a>
+                <div class="nav-link" id="navLink">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="prod.html">PRODUCTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="aboutus.html">ABOUT</a></li>
+                    </ul>
+                </div>            
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav>
+       <div class="text-box">
+        <h1>Products And Machines</h1>
+       </div>
+    </section>
+</section>
+
+<!--******** PRODUCTS *********-->
+
+    <section class="product">
+        <h1>Our Demanding Products</h1>
+        <p>
+           These are our some of the  Most Demanding Products
+        </p>
+        <div class="row">
+            <div class="product-col"><a href="responsiveform.html">
+                <img src="images/library.png" alt="">
+                <h1>Product 1</h1>
+                <h2>Price ::<span>1000</span></h2><hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere quam at accusamus!
+                </p></a>
+            </div>
+            <div class="product-col"><a href=""><a href="responsiveform.html">
+                <img src="images/basketball.png" alt="">
+                <h1>Product 2</h1>
+                <h2>Price ::<span>1000</span></h2><hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere quam at accusamus!
+                </p></a>
+            </div>
+            <div class="product-col"><a href="">
+                <img src="images/cafeteria.png" alt="responsiveform.html">
+                <h1>Product 3</h1>
+                <h2>Price ::<span>1000</span></h2><hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere quam at accusamus!
+                </p></a>
+            </div>
+        </div>
+        <a href="products.html" class="prod-btn">View More Products   <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+    </section>
+
+    <hr>
+   
+
+    <!-- Machinery -->
+
+    <section class="product">
+        <h1>Our Machinery </h1>
+        <p>
+           These are our some of the  Most Precise Machines
+        </p>
+        <div class="row"><a href="responsiveform.html">
+            <div class="product-col">
+                <img src="images/library.png" alt="">
+                <h1>Machine 1</h1><hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere quam at accusamus!
+                </p></a>
+            </div>
+            <div class="product-col"><a href="responsiveform.html">
+                <img src="images/basketball.png" alt="">
+                <h1>Machine 2</h1><hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere quam at accusamus!
+                </p></a>
+            </div>
+            <div class="product-col"><a href="">
+                <img src="images/cafeteria.png" alt="responsiveform.html">
+                <h1>Machine 3</h1><hr>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat facere quam at accusamus!
+                </p></a>
+            </div>
+        </div>
+        <a href="machine.html" class="prod-btn">View More Machine   <i class="fa fa-long-arrow-right" ></i></a>
+    </section>
+
+    <hr>
+
+    <footer>
+        <section class="low">
+        <div class="container">
+            <div class="contact-info">
+                <h2>Owner</h2>
+                <p>( Head Incharge ) <br> Vaishnavi Enginering <br> Sr.No 8/7 , Sectior 256 , Near Timber Estates , Ambegaon Road <br> Katraj ,Pune - 411061</p>
+            </div>
+        </div>
+        <div class="share-us">
+            <h2>Share Us</h2>
+            <ul>
+                <li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+            </ul>
+            <p>© All Rights Reserved  ||  © Vaishnavi Engineering .</p>
+            <p>Developed and Managed By ADOM Solutions PVT LTD .</p>
+        </div>
+    </section>
+    </footer>
+
+
+
+
+
+    <!-- Javascript For Toggle Menu -->
+
+    <script>
+        var navLink = document.getElementById("navLink");
+
+        function showMenu(){
+            navLink.style.right="0";
+        }
+
+        function hideMenu(){
+            navLink.style.right="-200px";
+        }
+    </script>
+</body>
+</html>

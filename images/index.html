@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>responsiveform</title>
+	
+	<link rel="stylesheet" type="text/css" href="responsiveform.css" >	
+	<link rel="stylesheet" href="aboutus.css">
+	<!-- Add icon library -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	 
+</head>
+
+<body>
+	<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/jk.webp"></a>
+                <div class="nav-link" id="navLink">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="prod.html">PRODUCTS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                        <li><a href="aboutus.html">ABOUT</a></li>
+                    </ul>
+                </div>            
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+           </nav> 
+
+       
+
+    </section>
+
+	<section class="form_section">
+	<div class="container">
+		<h1>Enquiry Form</h1>
+		<div class="form-container">
+			<form>
+
+				<div class="input-name">
+					<i class="fa fa-user lock" aria-hidden="true"></i>
+					<input type="text" placeholder="Full Name" class="text-name">
+					
+				</div>
+
+				<div class="input-name">
+					<i class="fa fa-envelope email lock" aria-hidden="true"></i>
+					<input type="email" placeholder="abc@gmail.com" class="text-name">
+				</div>
+
+				<div class="input-name">
+					<i class="fa fa-phone number lock" aria-hidden="true"></i>
+					<input type="number" placeholder="0000000000" class="text-name">
+				</div>
+
+				<div class="input-name">
+					<i class="fa fa-question enquiry lock" aria-hidden="true"></i>
+					<input type="text" placeholder="Type your Enquiry" class="text-name1">
+				</div>
+
+				<div class="input-name">
+					<input type="radio" class="radio-button" name="radio">
+					<label style="margin-right:30px">Response With Call</label>
+
+					<input type="radio" class="radio-button" name="radio">
+					<label style="margin-right:30px">Response With Mail</label>
+				</div>
+
+				<div class="input-name">
+					<input type="checkbox" id="cb" class="check-button">
+					<label class="check">I accept all the terms and Condition's</label>
+				</div>
+
+				<div class="input-name">
+					<input type="submit" class="button" value="Submit">
+				</div>
+
+			</form>
+		</div>
+	</div>
+	</section>
+
+	
+<footer>
+	<section class="low">
+	<div class="">
+		<div class="contact-info">
+			<h2>Ganesh Arjun Shinde</h2>
+			<p>( Head Incharge ) <br> Vaishnavi Enginering <br> Sr.No 8/7 , Sectior 256 , Near Timber Estates , Ambegaon Road <br> Katraj ,Pune - 411061</p>
+		</div>
+	</div>
+	<div class="share-us">
+		<h2>Share Us</h2>
+		<ul>
+			<li><a href="https://twitter.com"><i class="fab fa-twitter"></i></a></li>
+			<li><a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a></li>
+			<li><a href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+		</ul>
+		<p>© All Rights Reserved  ||  © Vaishnavi Engineering .</p>
+		<p>Developed and Managed By ADOM SOlutions PVT LTD .</p>
+	</div>
+</section>
+</footer>
+
+
+    <!-- Javascript For Toggle Menu -->
+
+    <script>
+        var navLink = document.getElementById("navLink");
+
+        function showMenu(){
+            navLink.style.right="0";
+        }
+
+        function hideMenu(){
+            navLink.style.right="-200px";
+        }
+    </script>
+
+
+
+</body>
+</html>
